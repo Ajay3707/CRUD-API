@@ -13,6 +13,10 @@ public class PersonService {
 	@Autowired
 	private PersonRepository personRepository;
 	
+	//HelloPage
+	public String helloWorld() {
+		return "Hello World! /n Welcome To My Page";
+	}
 	//Create operation 
 	public Person create(String firstName,String lastName, int age) {
 		return personRepository.save(new Person(firstName, lastName, age));
