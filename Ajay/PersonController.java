@@ -45,4 +45,3 @@ public class PersonController {
 		return "Deleted all records";
 	}	 
 }
-done
