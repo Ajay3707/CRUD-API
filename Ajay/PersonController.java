@@ -44,4 +44,9 @@ public class PersonController {
 		personService.deleteAll();
 		return "Deleted all records";
 	}	 
+	
+	@RequestMapping("/hello")
+	 public String hello() {
+		 return "Hello World Developers .....!!!";
+	 }
 }
